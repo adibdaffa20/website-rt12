@@ -1,0 +1,48 @@
+.jelajah {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.jelajah h2 {
+    color: #151B54;
+}
+
+.peta-desa h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.beli-desa h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+
+/* ======================================================= */
+
+.batas-desa h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.batas-desa h5 {
+    font-weight: bold;
+    color: #357EC7;
+}
+
+.batas-desa .card {
+    padding: 10px;
+}
+
+.logo-desa2 img {
+    max-width: 40%;
+}

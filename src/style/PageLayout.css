@@ -1,0 +1,71 @@
+.konten-dashboard {
+    background-color: rgb(176, 229, 253);
+}
+
+
+/* Main Layout Styles */
+
+.admin-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    transition: margin-left 0.3s ease;
+    position: relative;
+}
+
+.with-sidebar {
+    margin-left: 250px;
+}
+
+.content-wrapper {
+    padding: 20px;
+    min-height: 100vh;
+}
+
+
+/* Mobile Toggle Button */
+
+.sidebar-toggle {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 800;
+    background: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+    .sidebar-toggle {
+        display: none;
+    }
+    .content-wrapper {
+        padding: 30px;
+    }
+}
+
+.content-wrapper {
+    padding: 30px;
+}
+
+.content-wrapper::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari and Opera */
+}

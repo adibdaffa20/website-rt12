@@ -1,0 +1,30 @@
+footer {
+    background-color: #357EC7;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+footer.footer {
+    width: 100%;
+}
+
+footer .row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+footer .col-md-4,
+footer .col-md-6 {
+    padding: 1rem;
+  
+}
+
+footer p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

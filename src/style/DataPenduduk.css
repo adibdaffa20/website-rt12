@@ -1,0 +1,60 @@
+.data-penduduk .circular-card {
+    width: 200px;
+   
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+   
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-penduduk .circular-card .card-body {
+  
+    text-align: center;
+}
+
+.data-penduduk .circular-card .icon {
+    border-radius: 50%;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.data-penduduk .circular-card .card-title h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #357EC7;
+}
+
+.data-penduduk .circular-card p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #8387b1;
+}
+
+.data-penduduk .card {
+    border: none;
+}
+
+.data-penduduk .card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data-penduduk .data {
+    background-color: #007bff;
+      color: white;
+      border-radius: 8px;
+    font-size: 2rem;
+}
+
+.data-penduduk .info {
+    color: #004085;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}

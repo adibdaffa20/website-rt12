@@ -1,0 +1,29 @@
+.bagan h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.bagan h5 {
+    font-weight: bold;
+    color: #357EC7;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .bagan h2 {
+        text-align: center;
+      
+        display: block;
+        width: 100%;
+    }
+}
+
+.bagan h2 {
+    text-align: center;
+   
+    display: block;
+    width: 100%;
+}

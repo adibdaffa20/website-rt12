@@ -1,0 +1,28 @@
+.sjr {
+    background-color: #C2DFFF !important;
+}
+
+.card {
+    border: none;
+}
+
+.container.logo {
+    display: flex;
+     justify-content: center;
+    align-items: center;
+   }
+
+.container.logo img {
+    max-width: 10%;
+       height: auto;
+   }
+
+.logo-desa img {
+    width: 10%;
+    height: auto;
+  }
+
+.visimisi h5 {
+    font-weight: bold;
+    color: #357EC7;
+}

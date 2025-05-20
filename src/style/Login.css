@@ -1,0 +1,16 @@
+.login .card {
+    border: none;
+}
+
+.login span {
+    background-color: #357EC7;
+}
+
+.login h2 {
+    font-weight: bold;
+    color: #357EC7;
+}
+
+.login p {
+    color: #a7bed5;
+}

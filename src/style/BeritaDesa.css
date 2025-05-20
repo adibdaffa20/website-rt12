@@ -1,0 +1,39 @@
+.berita-desa .info {
+    color: #357EC7;
+}
+
+.berita-desa h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.berita-detail .card {
+    border: none;
+}
+
+.formatted-paragraph {
+    text-align: justify;
+    text-indent: 2em;
+    white-space: pre-wrap;
+}
+
+.terbaru h4 {
+    font-weight: bold;
+    color: #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.berita-detail h2 {
+    font-weight: bold;
+    color: #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.berita-detail span {
+    color: #bad6f1;
+}

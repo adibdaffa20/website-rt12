@@ -1,0 +1,291 @@
+.info-grafis h2 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.info-grafis p {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.info-grafis .card {
+    border: none;
+    background-color: #93c7fb;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.data-penduduk h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.data-penduduk h3 {
+    font-weight: bold;
+    color: #357EC7;
+    font-size: 38px;
+    display: inline-block;
+}
+
+.data-penduduk h5 {
+    font-weight: bold;
+    color: #a7bed5;
+}
+
+.data-penduduk img {
+    width: 100%;
+    height: auto;
+}
+
+.data-penduduk .card {
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .data-penduduk img {
+        width: 25%;
+        height: auto;
+    }
+}
+
+
+/* ================================ */
+
+.pendidikan .chart-container {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.pendidikan .card {
+    transition: box-shadow 0.3s ease;
+}
+
+.pendidikan .card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =============================== */
+
+.pekerjaan h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.pekerjaan .card {
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.pekerjaan h3 {
+    font-weight: bold;
+    color: #357EC7;
+    font-size: 38px;
+    display: inline-block;
+}
+
+.pekerjaan h6 {
+    font-weight: bold;
+    color: #a7bed5;
+}
+
+
+/* =============================== */
+
+.perkawinan h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.perkawinan h3 {
+    font-weight: bold;
+    color: #357EC7;
+    font-size: 38px;
+    display: inline-block;
+}
+
+.perkawinan h6 {
+    font-weight: bold;
+    color: #a7bed5;
+}
+
+.perkawinan img {
+    width: 100%;
+    height: auto;
+}
+
+.perkawinan .card {
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .perkawinan img {
+        width: 25%;
+        height: auto;
+    }
+}
+
+
+/* =============================== */
+
+.agama h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.agama h3 {
+    font-weight: bold;
+    color: #357EC7;
+    font-size: 38px;
+    display: inline-block;
+}
+
+.agama h6 {
+    font-weight: bold;
+    color: #a7bed5;
+}
+
+.agama img {
+    width: 100%;
+    height: auto;
+}
+
+.agama .card {
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .agama img {
+        width: 25%;
+        height: auto;
+    }
+}
+
+
+/* ========================================== */
+
+.apbd h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.apbd h5 {
+    font-weight: bold;
+    color: #a7bed5;
+}
+
+.apbd h3 {
+    font-weight: bold;
+    color: #357EC7;
+    display: inline-block;
+}
+
+.apbd .card {
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+/* ============================ */
+
+.stanting h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.stanting h5 {
+    font-weight: bold;
+    color: #a7bed5;
+}
+
+.stanting h4 {
+    font-weight: bold;
+    color: #357EC7;
+    display: inline-block;
+}
+
+.stanting h1 {
+    font-weight: bold;
+    color: #f84a1a;
+    font-size: 48px;
+}
+
+.stanting .card {
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* ========================== */
+
+.bansos h2 {
+    font-weight: bold;
+    color: #357EC7;
+}
+
+.bansos h5 {
+    font-weight: bold;
+    color: #2b91f7;
+    font-size: 28px;
+}
+
+.bansos h6 {
+    font-weight: bold;
+    color: #1173d6;
+}
+
+.bansos p {
+    font-weight: bold;
+    color: #a7bed5;
+}
+
+
+/* ================================ */
+
+.idm h2 {
+    font-weight: bold;
+    color: #357EC7;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.idm h6 {
+    font-weight: bold;
+    color: #a7bed5;
+}
+
+.idm h3 {
+    font-weight: bold;
+    color: #357EC7;
+    font-size: 48px;
+}
+
+.idm .card {
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}

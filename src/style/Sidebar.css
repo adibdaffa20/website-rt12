@@ -1,0 +1,116 @@
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    z-index: 1050;
+    background: linear-gradient(145deg, #00333d, #00575f);
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    scrollbar-width: none;
+       -ms-overflow-style: none;
+    }
+
+.sidebar-container::-webkit-scrollbar {
+    display: none;
+   }
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+      scrollbar-width: none;
+   }
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-content {
+    height: 100%;
+    overflow-y: auto;
+    padding: 1rem;
+    padding-right: 5px;
+    margin-right: -5px;
+}
+
+.sidebar-header {
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+
+
+/* Mobile Styles */
+
+.sidebar-container.show {
+    left: 0;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+    display: none;
+}
+
+
+/* Desktop Styles */
+
+@media (min-width: 768px) {
+    .sidebar-container {
+        left: 0;
+    }
+    .sidebar-overlay {
+        display: none !important;
+    }
+    .sidebar-container.collapsed {
+        width: 70px;
+    }
+    .sidebar-container.collapsed .menu-text {
+        display: none;
+    }
+    .sidebar-container.collapsed .sidebar-header {
+        justify-content: center;
+    }
+    .sidebar-container.collapsed .sidebar-toggle-btn {
+        position: absolute;
+        right: 5px;
+        top: 10px;
+    }
+}
+
+
+/* Menu Items */
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0.75rem 1rem;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+    background-color: #357EC7;
+    color: white !important;
+}
+
+.sidebar-toggle-btn {
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.sidebar-toggle-btn:hover {
+    transform: scale(1.1);
+}
+

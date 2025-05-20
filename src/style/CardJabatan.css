@@ -1,0 +1,55 @@
+.jabatan .carousel-wrapper {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.jabatan .carousel-container {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.jabatan .carousel-track {
+    display: flex;
+    gap: 1rem;
+}
+
+.jabatan .carousel-card {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.jabatan .card {
+    height: 100% !important;
+}
+
+@media (min-width: 768px) {
+    .jabatan .carousel-card {
+        width: 20%;
+    }
+}
+
+.jabatan .carousel-container::-webkit-scrollbar {
+    display: none;
+}
+
+.jabatan .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: #357EC7;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.jabatan .nav-button.left {
+    left: 10px;
+}
+
+.jabatan .nav-button.right {
+    right: 10px;
+}

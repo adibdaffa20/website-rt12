@@ -1,0 +1,48 @@
+.sambutan h2 {
+    color: #357EC7;
+    font-weight: bold;
+    border-bottom: 3px solid #357EC7;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.sambutan-1 .sambutan {
+    max-height: 300px;
+      overflow-y: auto;
+       border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sambutan-1 .sambutan p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.sambutan-1 .sambutan h4 {
+    font-weight: bold;
+}
+
+
+.sambutan-1 .sambutan::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+
+
+.sambutan-1 .sambutan {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    
+}
+
+.sambutan img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
