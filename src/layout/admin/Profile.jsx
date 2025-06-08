@@ -89,88 +89,10 @@ const handleFileChange = (e) => {
                     <h4>Profil Desa Wisata</h4>
                 </div>
 
-                {/* Bagian Visi Misi */}
-                <div className="card mb-4">
-                    <div className="card-header d-flex justify-content-between align-items-center bg-light">
-                        <h5 className="mb-0">Visi Misi Desa</h5>
-                        <button 
-                            className="btn btn-sm btn-warning"
-                            onClick={() => openEditModal('visimisi', visimisi)}
-                        >
-                            <IconEdit size={16} className="me-1" /> Edit
-                        </button>
-                    </div>
-                    <div className="card-body">
-                        <h6>Visi:</h6>
-                        <p>{visimisi.visi}</p>
-                        <h6 className="mt-3">Misi:</h6>
-                        <p>{visimisi.misi}</p>
-                    </div>
-                </div>
-
-                {/* Bagian Sejarah */}
-                <div className="card mb-4">
-                    <div className="card-header d-flex justify-content-between align-items-center bg-light">
-                        <h5 className="mb-0">Sejarah Desa</h5>
-                        <button 
-                            className="btn btn-sm btn-warning"
-                            onClick={() => openEditModal('sejarah', sejarah)}
-                        >
-                            <IconEdit size={16} className="me-1" /> Edit
-                        </button>
-                    </div>
-                    <div className="card-body">
-                        <p>{sejarah.sejarah}</p>
-                    </div>
-                </div>
-
-                {/* Bagian Keunggulan */}
-                <div className="card mb-4">
-                    <div className="card-header d-flex justify-content-between align-items-center bg-light">
-                        <h5 className="mb-0">Keunggulan Desa</h5>
-                        <button 
-                            className="btn btn-sm btn-warning"
-                            onClick={() => openEditModal('keunggulan', keunggulan)}
-                        >
-                            <IconEdit size={16} className="me-1" /> Edit
-                        </button>
-                    </div>
-                    <div className="card-body">
-                        <p>{keunggulan.keunggulan}</p>
-                    </div>
-                </div>
-
-                {/* Bagian Batas Wilayah */}
-                <div className="card mb-4">
-                    <div className="card-header d-flex justify-content-between align-items-center bg-light">
-                        <h5 className="mb-0">Batas Wilayah</h5>
-                        <button 
-                            className="btn btn-sm btn-warning"
-                            onClick={() => openEditModal('batas', batas)}
-                        >
-                            <IconEdit size={16} className="me-1" /> Edit
-                        </button>
-                    </div>
-                    <div className="card-body">
-                        <p>{batas.description}</p>
-                        <div className="row mt-3">
-                            <div className="col-md-6">
-                                <p><strong>Batas Barat:</strong> {batas.batasBarat}</p>
-                                <p><strong>Batas Selatan:</strong> {batas.batasSelatan}</p>
-                            </div>
-                            <div className="col-md-6">
-                                <p><strong>Batas Timur:</strong> {batas.batasTimur}</p>
-                                <p><strong>Batas Utara:</strong> {batas.batasUtara}</p>
-                            </div>
-                        </div>
-                        <p className="mt-3"><strong>Luas Desa:</strong> {batas.luasDesa} m²</p>
-                    </div>
-                </div>
-
                 {/* Bagian Sambutan Kepala Desa */}
                 <div className="card mb-4">
                     <div className="card-header d-flex justify-content-between align-items-center bg-light">
-                        <h5 className="mb-0">Sambutan Kepala Desa</h5>
+                        <h5 className="mb-0">Sambutan Ketua RT</h5>
                         <button 
                             className="btn btn-sm btn-warning"
                             onClick={() => openEditModal('sambutan', sambutan)}

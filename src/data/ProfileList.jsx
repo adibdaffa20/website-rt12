@@ -35,40 +35,47 @@ export const batasList=[
 export const baganList=[
     {
         title: "Bagan Struktur Organisasi",
-        description: "Bagan struktur organisasi desa wisata menunjukkan pembagian tugas dan tanggung jawab dalam pengelolaan desa wisata.",
-        image: "/img/bagan.png"
-    },
-    {
-        title: "Struktur Organisasi Badan Permusyawaratan Desa",
-        description: "Struktur organisasi Badan Permusyawaratan Desa (BPD) terdiri dari anggota yang dipilih oleh masyarakat desa untuk mewakili kepentingan mereka dalam pengambilan keputusan.",
+        description: "Bagan struktur organisasi RT 12 RW 06 Sedati Gede.",
         image: "/img/bagan.png"
     }
 ]
 
 export const jabatanList=[
     {
-        jabatan: "Kepala Desa",
-        nama: "Budi Santoso",
+        jabatan: "Ketua RT",
+        nama: "Moh. Abidin",
         tahun: "2023-2027",
-        image: "/img/person/person-m-5.webp"
+        image: "/img/person/ketuart.jpg"
     },
     {
-        jabatan: "Sekretaris Desa",
-        nama: "Siti Aminah",
+        jabatan: "Wakil Ketua",
+        nama: "Muhammad Hudi",
         tahun: "2023-2027",
         image: "/img/person/person-f-7.webp"
     },
     {
-        jabatan: "Kepala Urusan Keuangan",
-        nama: "Joko Susilo",
+        jabatan: "Sekretaris 1",
+        nama: "Khoirul Anam, S.Pd.",
         tahun: "2023-2027",
-        image: "/img/person/person-m-6.webp"
+        image: "/img/person/person-f-7.webp"
     },
     {
-        jabatan: "Kepala Urusan Perencanaan",
-        nama: "Dewi Lestari",
+        jabatan: "Sekretaris 2",
+        nama: "Muizatil Karimah",
         tahun: "2023-2027",
-        image: "/img/person/person-f-12.webp"
-    }
+        image: "/img/person/person-f-7.webp"
+    },
+    {
+        jabatan: "Bendahara 1",
+        nama: "Rifki Suwaji",
+        tahun: "2023-2027",
+        image: "/img/person/person-f-7.webp"
+    },
+    {
+        jabatan: "Bendahara 2",
+        nama: "Sri Haryanti",
+        tahun: "2023-2027",
+        image: "/img/person/person-f-7.webp"
+    },
 ]
 

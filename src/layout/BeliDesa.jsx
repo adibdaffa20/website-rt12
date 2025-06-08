@@ -16,8 +16,8 @@ const BeliDesa= () => {
   return (
     <div className="beli-desa">
       {/* <motion.div {...zoomInOnScroll}> */}
-        <h2 className="mt-5">Beli Dari Desa</h2>
-              <p>Layanan yang disediakan promosi produk UMKM Desa sehingga mampu meningkatkan perekonomian masyarakat Desa</p>
+        <h2 className="mt-5">UMKM RT 12</h2>
+              <p>Layanan yang disediakan promosi produk UMKM RT 12 sehingga mampu meningkatkan perekonomian masyarakat Desa</p>
         <div className="row">
           {beliList.map((product) => (
             <div key={product.id} className="col-12 col-sm-6 col-lg-4 mb-3 mt-5">

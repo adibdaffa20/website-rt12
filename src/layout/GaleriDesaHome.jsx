@@ -14,8 +14,8 @@ const GaleriDesa = () => {
   return (
     <div className="galeri-desa">
       <motion.div {...slideInLeftOnScroll}>
-      <h2>Galeri Desa</h2>
-      <p>Menampilkan kegiatan-kegiatan yang berlangsung di Desa</p>
+      <h2>Galeri RT</h2>
+      <p>Menampilkan kegiatan-kegiatan yang berlangsung di RT 12</p>
       </motion.div>
       <motion.div {...zoomInOnScroll}>
       <div className="row">

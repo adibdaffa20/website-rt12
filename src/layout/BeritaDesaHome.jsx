@@ -23,8 +23,8 @@ const BeritaDesa = () => {
   return (
     <div className="berita-desa">
       <motion.div {...slideInLeftOnScroll}>
-        <h2>Berita Desa</h2>
-        <p>Menyajikan informasi terbaru tentang peristiwa, berita terkini, dan artikel-artikel jurnalistik dari Desa  </p>
+        <h2>Berita RT</h2>
+        <p>Menyajikan informasi terbaru tentang galeri, berita terkini, dan artikel-artikel jurnalistik dari RT  </p>
       </motion.div>
 
       <motion.div {...zoomInOnScroll}>

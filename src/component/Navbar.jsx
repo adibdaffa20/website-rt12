@@ -17,7 +17,7 @@ const MotionDiv = motion.div;
 const menuItems = [
   { label: "Home", path: "/", icon: <IconHome size={20} /> },
   { label: "Profile", path: "/profile", icon: <IconUser size={20} /> },
-  { label: "Infografis", path: "/infografis", icon: <IconChartInfographic size={20} /> },
+  // { label: "Infografis", path: "/infografis", icon: <IconChartInfographic size={20} /> },
   { label: "Berita", path: "/berita", icon: <IconNews size={20} /> },
   { label: "Belanja", path: "/beli", icon: <IconShoppingBag size={20} /> },
   { label: "Galeri", path: "/galeri", icon: <IconPhoto size={20} /> }
@@ -52,7 +52,7 @@ function Navbar() {
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <NavLink className="navbar-brand fw-bold d-flex align-items-center gap-2" to="/">
             <img src={logo} alt="Logo" width="30" height="30" />
-            Kalipuro
+            RT 12 RW 06 Sedati Gede
           </NavLink>
 
           <button className="btn d-lg-none mobile-toggle" onClick={toggleMenu} aria-label="Toggle menu">

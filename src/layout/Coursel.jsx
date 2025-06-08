@@ -16,7 +16,7 @@ const Coursel = () => {
               />
               <div className="carousel-content">
                 
-                <h2 className="carousel-text">Selamat Datang di Desa Kalipuro</h2>
+                <h2 className="carousel-text">Selamat Datang di RT 12 RW 06 Sedati Gede</h2>
                 
               </div>
             </div>

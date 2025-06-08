@@ -21,7 +21,7 @@ const BeritaDesa = () => {
   return (
     <div className="berita-desa">
      
-        <h2>Berita Desa</h2>
+        <h2>Berita RT</h2>
         <p>Menyajikan informasi terbaru tentang peristiwa, berita terkini, dan artikel-artikel jurnalistik dari Desa  </p>
      
         <div className="row">
