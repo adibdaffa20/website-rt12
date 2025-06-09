@@ -1,6 +1,6 @@
 import React from 'react'
 import { galeriList } from '../data/GaleriList'
-import "../style/GaleriDesa.css"
+import "../style/Galeridesa.css"
 import { motion } from "framer-motion";
 
 import { zoomInOnScroll, slideInLeftOnScroll } from "../animasi/animations.jsx";
