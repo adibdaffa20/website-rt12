@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { beritaList } from '../../data/beritaList';
 import '../../style/BeritaAdmin.css'
 import {
     IconCalendar,
