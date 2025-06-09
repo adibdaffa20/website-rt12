@@ -72,8 +72,8 @@ const Home = () => {
           <div className="peta-desa">
 
             <motion.div {...zoomInOnScroll}>
-              <h2>Peta Desa</h2>
-              <p>Menampilkan Peta Desa Sedati Gede </p>
+              <h2>Peta RT 12 RW 06</h2>
+              <p>Menampilkan Peta RT 12 RW 06 Sedati Gede </p>
 
               <div style={{ width: "100%", height: "450px" }}>
                 <iframe

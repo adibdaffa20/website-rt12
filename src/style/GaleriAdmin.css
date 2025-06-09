@@ -140,13 +140,13 @@ form button[type="submit"]:hover {
 
 .tabel-galeri h4 {
     font-weight: bold;
-    color: #357EC7;
-    border-bottom: 3px solid #357EC7;
+    color: #045b6e;
+    border-bottom: 3px solid #045b6e;
     display: inline-block;
     padding-bottom: 5px;
 }
 
 .tabel-galeri thead th {
     background-color: rgb(182, 230, 252) !important;
-    color: #357EC7;
+    color: #045b6e;
 }

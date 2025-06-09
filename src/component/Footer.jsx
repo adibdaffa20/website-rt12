@@ -8,7 +8,7 @@ function Footer() {
         <div className="row m-0 p-3">
           <div className="col-md-4">
             <h5 className="text-uppercase">RT 12 RW 06 Sedati Gede</h5>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus mollitia libero, cum voluptates repudiandae odio fugit dolore nostrum dolorem consequatur non ad earum consequuntur iste laudantium cumque nemo hic assumenda ratione, quaerat dignissimos! Dolorum quas maiores distinctio, voluptatibus accusantium rem quaerat adipisci nobis optio. Id repellendus totam dolores suscipit accusantium.
+            <p> Jl. H. Abd Rahman 69E Sedati Gede, Kecamatan Sedati, Kabupaten Sidoarjo, 61253.
             </p>
           </div>
           

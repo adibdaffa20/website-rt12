@@ -30,7 +30,7 @@ const Profile = () => {
         <div className="container">
           <div className="logo-desa text-center">
 <motion.div {...zoomInOnScroll}>
-            <img src="img/logo2.png" alt="dd" />
+            <img src="img/logo2.jpg" alt="dd" />
 </motion.div>
           </div>
           <div className="row mb-5">

@@ -58,7 +58,7 @@ nav {
     /* posisikan dari atas */
     right: 0;
     z-index: 999;
-    color: #357EC7 !important;
+    color: #045b6e !important;
 }
 
 .mobile-toggle {
@@ -79,7 +79,7 @@ nav {
 .navbar-transparent {
     background-color: #045b6e;
     transition: background-color 0.3s, box-shadow 0.3s;
-    color: #357EC7;
+    color: #045b6e;
     font-size: 16px;
     font-weight: bold;
 }
