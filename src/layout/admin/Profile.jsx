@@ -1,11 +1,4 @@
 import React, { useState, useRef } from 'react';
-import { 
-    visimisiList,
-    sejarahList,
-    keunggulanList,
-    batasList
-    
-} from '../../data/Profilelist';
 import {sambutanList} from '../../data/SambutanList';
 import {
     IconEdit,
