@@ -4,7 +4,7 @@ import Footer from "../component/Footer.jsx";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Form from "react-bootstrap/Form";
-import '../style/InfoGrafis.css' 
+import '../style/InfoGrafis.css'
 
 import DataPendidikan from "../layout/infografis/JumlahPendidikan.jsx";
 import JumlahPerkerjaan from "../layout/infografis/JumlahPerkerjaan.jsx";
@@ -20,6 +20,7 @@ import JumlahPenduduk from "../layout/infografis/JumlahPenduduk.jsx";
 
 import Aduan from './Aduan.jsx';
 import EmergencyWa from './EmergencyWa.jsx';
+import Sidebar from "../component/Sidebar.jsx";
 
 const InfoGrafis = () => {
 
@@ -33,9 +34,9 @@ const InfoGrafis = () => {
             <div className="col-md-12 mt-5 mb-4 text-center info-grafis">
               <div className="card ">
                 <div className="card-body">
-                  <h2 className="card-title ">Info Grafis</h2>
+                  <h2 className="card-title ">Informasi</h2>
                   <p className="card-text">
-                    Berikut adalah info grafis yang ada di desa kami
+                    Berikut sejumlah informasi yang ada di RT 12
                   </p>
                 </div>
               </div>
@@ -47,7 +48,7 @@ const InfoGrafis = () => {
                 className="mb-3"
                 justify
               >
-                <Tab eventKey="home" title="Penduduk">
+                {/* <Tab eventKey="home" title="Program Kerja">
                   <section>
                     <div className="container mt-5 mb-5">
                      
@@ -73,21 +74,21 @@ const InfoGrafis = () => {
                       </div>
                     </div>
                   </section>
-                </Tab>
+                </Tab> */}
 
-                <Tab eventKey="profile" title="APBdes">
+                <Tab eventKey="profile" title="Buku Pedoman">
                   <section>
                     <Apbd />
                   </section>
                 </Tab>
-                <Tab eventKey="longer-tab" title="Stanting">
+                <Tab eventKey="longer-tab" title="Program Kerja">
                   <section>
                     <div className=" mt-5 mb-5">
                       <Stanting />
                     </div>
                   </section>
                 </Tab>
-                <Tab eventKey="contact" title="Bansos">
+                <Tab eventKey="contact" title="Laporan Keuangan">
                   <section>
                     <div className=" mt-5 mb-5">
                       <Bansos />
@@ -95,13 +96,13 @@ const InfoGrafis = () => {
                   </section>
                 </Tab>
 
-                <Tab eventKey="idm" title="IDM">
+                {/* <Tab eventKey="idm" title="IDM">
                   <section>
                     <div className="container mt-5 mb-5">
                       <Idm />
                     </div>
                   </section>
-                </Tab>
+                </Tab> */}
               </Tabs>
             </div>
           </div>

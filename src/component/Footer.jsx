@@ -8,7 +8,7 @@ function Footer() {
         <div className="row m-0 p-3">
           <div className="col-md-4">
             <h5 className="text-uppercase">RT 12 RW 06 Sedati Gede</h5>
-            <p> Jl. H. Abd Rahman 69E Sedati Gede, Kecamatan Sedati, Kabupaten Sidoarjo, 61253.
+            <p> Jl. H. Abd Rahman Sedati Gede, Kecamatan Sedati, Kabupaten Sidoarjo, 61253.
             </p>
           </div>
           

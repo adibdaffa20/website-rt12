@@ -85,7 +85,7 @@ function Sidebar({ show, onClose, collapsed, toggleCollapse }) {
             <li className="nav-item">
               <NavLink to="penduduk" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} onClick={onClose}>
                 <IconUsersGroup size={20} />
-                <span className="menu-text">Penduduk</span>
+                <span className="menu-text">Laporan Keuangan</span>
               </NavLink>
             </li>
 
@@ -113,7 +113,7 @@ function Sidebar({ show, onClose, collapsed, toggleCollapse }) {
             <li className="nav-item">
               <NavLink to="idm" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`} onClick={onClose}>
                 <IconChartRadar size={20} />
-                <span className="menu-text">IDM</span>
+                <span className="menu-text">LAPORAN KEUANGAN</span>
               </NavLink>
             </li>
 

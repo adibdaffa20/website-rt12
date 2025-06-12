@@ -10,7 +10,7 @@
 
 .info-grafis .card {
     border: none;
-    background-color: #93c7fb;
+    background-color: #045b6e;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,7 +31,7 @@
 
 .data-penduduk h5 {
     font-weight: bold;
-    color: #a7bed5;
+    color: #045b6e;
 }
 
 .data-penduduk img {
@@ -92,7 +92,7 @@
 
 .pekerjaan h6 {
     font-weight: bold;
-    color: #a7bed5;
+    color: #045b6e;
 }
 
 

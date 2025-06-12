@@ -17,10 +17,10 @@ const MotionDiv = motion.div;
 const menuItems = [
   { label: "Home", path: "/", icon: <IconHome size={20} /> },
   { label: "Profile", path: "/profile", icon: <IconUser size={20} /> },
-  // { label: "Infografis", path: "/infografis", icon: <IconChartInfographic size={20} /> },
+  { label: "Laporan", path: "/infografis", icon: <IconChartInfographic size={20} /> },
   { label: "Berita", path: "/berita", icon: <IconNews size={20} /> },
-  { label: "Belanja", path: "/beli", icon: <IconShoppingBag size={20} /> },
-  { label: "Galeri", path: "/galeri", icon: <IconPhoto size={20} /> }
+  { label: "UMKM", path: "/beli", icon: <IconShoppingBag size={20} /> },
+  { label: "Galeri", path: "/galeri", icon: <IconPhoto size={20} /> },
 ];
 
 const mobileMenuVariants = {

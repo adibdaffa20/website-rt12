@@ -23,11 +23,11 @@ export const keunggulanList=[
 export const batasList=[
     {
       
-        description: "Desa wisata ini memiliki batas wilayah yang jelas, dengan batas-batas sebagai berikut:",
-        batasBarat: "Sungai Ciliwung",
-        batasSelatan: "Gunung Salak",
+        description: "RT 12 memiliki batas wilayah yang jelas, dengan batas-batas sebagai berikut:",
+        batasBarat: "GKSP",
+        batasSelatan: "RT 11",
         batasTimur: "Hutan Lindung",
-        batasUtara: "Jalan Raya",
+        batasUtara: "RT 05",
         luasDesa: "421.000"
     }
 ]
@@ -36,7 +36,7 @@ export const baganList=[
     {
         title: "Bagan Struktur Organisasi",
         description: "Bagan struktur organisasi RT 12 RW 06 Sedati Gede.",
-        image: "/img/bagan.png"
+        image: "/img/bagan.jpg"
     }
 ]
 
@@ -57,7 +57,7 @@ export const jabatanList=[
         jabatan: "Sekretaris 1",
         nama: "Khoirul Anam, S.Pd.",
         tahun: "2023-2027",
-        image: "/img/person/person-f-7.webp"
+        image: "/img/person/pakrul.jpg"
     },
     {
         jabatan: "Sekretaris 2",
@@ -69,7 +69,7 @@ export const jabatanList=[
         jabatan: "Bendahara 1",
         nama: "Rifki Suwaji",
         tahun: "2023-2027",
-        image: "/img/person/person-f-7.webp"
+        image: "/img/person/masrifki.jpg"
     },
     {
         jabatan: "Bendahara 2",

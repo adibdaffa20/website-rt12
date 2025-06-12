@@ -7,7 +7,7 @@ function Bagan() {
     return (
         <div className="bagan">
             <motion.div {...zoomInOnScroll}>
-            <h2>Bagan Desa</h2>
+            <h2>Struktur Organisasi RT 12</h2>
             <div className="row">
                 {baganList.map((bagan, index) => (
                     <div className="col-md-6 mt-3 " key={index}>
