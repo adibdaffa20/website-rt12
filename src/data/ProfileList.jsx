@@ -1,20 +1,20 @@
 export const visimisiList =[
     {
-        visi: "Mewujudkan Desa Wisata yang Mandiri, Berdaya Saing, dan Berkelanjutan.",
-        misi: "Meningkatkan kualitas sumber daya manusia melalui pendidikan dan pelatihan. Mengembangkan potensi wisata alam dan budaya desa. Mendorong partisipasi masyarakat dalam pengelolaan desa wisata. Membangun infrastruktur yang mendukung aksesibilitas dan kenyamanan wisatawan. Meningkatkan kerjasama dengan pihak ketiga untuk pengembangan desa wisata."
+        visi: "Mewujudkan lingkungan RT yang aman, tertib, bersih, dan harmonis melalui kebersamaan, partisipasi aktif warga, serta pelayanan yang transparan dan bertanggung jawab.",
+        misi: "Meningkatkan kerukunan dan semangat gotong royong antarwarga. Menyelenggarakan administrasi RT yang tertib, transparan, dan akuntabel. Menjaga kebersihan, keamanan, dan ketertiban lingkungan secara berkelanjutan."
     }
 ] 
 
 
 export const sejarahList=[
     {
-        sejarah: "Desa Wisata adalah sebuah desa yang memiliki potensi wisata alam dan budaya yang kaya. Sejak dahulu, desa ini dikenal sebagai tempat yang indah dan asri, dengan pemandangan alam yang menakjubkan."
+        sejarah: "Setelah kepengurusan RT 12 periode 2024 – 2029 terbentuk, langkah pengurus berikutnya adalah menyusun program kerja serta segera melaksanakannya. Jajaran pengurus berharap dan berusaha dapat menampung aspirasi warga dalam penyusunan program kerja RT. Dan sangat mengharapkan partisipasi aktif seluruh warga RT 12 agar semua program yang disusun dapat terlaksana dengan baik. Kepercayaan yang diberikan kepada kita sebuah amanah semoga kita semua dapat melaksanakannya sepenuh hati. Mudah-mudahan Pengurus RT yang baru bisa bersikap objektif dalam mengambil setiap keputusan yang berhubungan dengan seluruh warga. Pengurus diharapkan bisa menciptakan kembali rasa kebersamaan bagi seluruh warga di lingkungan RT 12 yang akhir-akhir ini mulai luntur. Kebersamaan dan kekompakan antar warga harus kembali dihidupkan. Hal ini penting guna terus menjalin komunikasi antar warga. Sehingga warga pun dengan sendirinya akan memberikan dukungan setiap kebijakan dan program yang dikeluarkan pihak RT."
     }
 ]
 
 export const keunggulanList=[
     {
-        keunggulan:"Meningkatkan kualitas sumber daya manusia melalui pendidikan dan pelatihan. Mengembangkan potensi wisata alam dan budaya desa. Mendorong partisipasi masyarakat dalam pengelolaan desa wisata. Membangun infrastruktur yang mendukung aksesibilitas dan kenyamanan wisatawan. Meningkatkan kerjasama dengan pihak ketiga untuk pengembangan desa wisata."
+        keunggulan:"semangat gotong royong yang tinggi di antara warganya, baik dalam kegiatan rutin seperti kerja bakti maupun saat pelaksanaan acara sosial dan keagamaan. RT12 dikenal memiliki lingkungan yang bersih dan tertata rapi berkat program kebersihan yang konsisten dijalankan. Keaktifan-ibu PKK dan karang taruna juga menjadi nilai tambah, di mana berbagai kegiatan kreatif dan produktif rutin dilaksanakan untuk mendukung kesejahteraan warga."
     }
 ]
 
