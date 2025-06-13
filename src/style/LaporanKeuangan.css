@@ -1,0 +1,20 @@
+.pdf-wrapper embed {
+  width: 100%;
+  height: 600px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Responsif untuk layar tablet */
+@media (max-width: 768px) {
+  .pdf-wrapper embed {
+    height: 400px;
+  }
+}
+
+/* Responsif untuk layar handphone */
+@media (max-width: 480px) {
+  .pdf-wrapper embed {
+    height: 300px;
+  }
+}

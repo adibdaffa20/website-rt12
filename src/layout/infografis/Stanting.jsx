@@ -1,6 +1,7 @@
 import React from 'react';
+import '../../style/ProgramKerja.css';
 
-function LaporanKeuangan() {
+function ProgramKerja(){
   const pdfPath = "/img/programkerja-rt12.pdf"; // path relatif dari folder public
 
   return (
@@ -9,7 +10,7 @@ function LaporanKeuangan() {
         <div className="col-md-12">
           <h2 className="text-center mb-4">Program Kerja RT 12</h2>
           <div className="card shadow-sm">
-            <div className="card-body">
+            <div className="card-body pdf-container">
               <embed
                 src={pdfPath}
                 type="application/pdf"
@@ -24,4 +25,4 @@ function LaporanKeuangan() {
   );
 }
 
-export default LaporanKeuangan;
+export default ProgramKerja;

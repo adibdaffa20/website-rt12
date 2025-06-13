@@ -48,10 +48,10 @@ export const jabatanList=[
         image: "/img/person/ketuart.jpg"
     },
     {
-        jabatan: "Wakil Ketua",
+        jabatan: "Wakil Ketua RT",
         nama: "Muhammad Hudi",
         tahun: "2023-2027",
-        image: "/img/person/person-f-7.webp"
+        image: "/img/person/wakil.jpg"
     },
     {
         jabatan: "Sekretaris 1",
@@ -63,7 +63,7 @@ export const jabatanList=[
         jabatan: "Sekretaris 2",
         nama: "Muizatil Karimah",
         tahun: "2023-2027",
-        image: "/img/person/person-f-7.webp"
+        image: "/img/person/sekre2.jpg"
     },
     {
         jabatan: "Bendahara 1",
@@ -75,7 +75,7 @@ export const jabatanList=[
         jabatan: "Bendahara 2",
         nama: "Sri Haryanti",
         tahun: "2023-2027",
-        image: "/img/person/person-f-7.webp"
+        image: "/img/person/bendahara2.jpg"
     },
 ]
 

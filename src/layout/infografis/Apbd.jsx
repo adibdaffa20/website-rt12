@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../style/BukuPedoman.css';
 
 function BukuPedoman() {
   const pdfPath = "/img/bukupedoman.pdf"; // path relatif dari folder public
@@ -9,7 +10,7 @@ function BukuPedoman() {
         <div className="col-md-12">
           <h2 className="text-center mb-4">Buku Pedoman Warga RT 12</h2>
           <div className="card shadow-sm">
-            <div className="card-body">
+            <div className="card-body pdf-container">
               <embed
                 src={pdfPath}
                 type="application/pdf"
