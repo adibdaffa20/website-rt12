@@ -4,7 +4,7 @@ import Footer from "../component/Footer.jsx";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Form from "react-bootstrap/Form";
-import '../style/InfoGrafis.css'
+import '../style/Tabs.css';
 
 import DataPendidikan from "../layout/infografis/JumlahPendidikan.jsx";
 import JumlahPerkerjaan from "../layout/infografis/JumlahPerkerjaan.jsx";
@@ -21,6 +21,7 @@ import JumlahPenduduk from "../layout/infografis/JumlahPenduduk.jsx";
 import Aduan from './Aduan.jsx';
 import EmergencyWa from './EmergencyWa.jsx';
 import Sidebar from "../component/Sidebar.jsx";
+
 
 const InfoGrafis = () => {
 

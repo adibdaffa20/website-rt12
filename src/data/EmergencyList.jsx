@@ -1,27 +1,17 @@
 export const EmergencyList = [
     {
-        name: "Polisi",
-        phone: "65532165459",
+        name: "Polsek Sedati",
+        phone: "81325017759",
 
     },
     {
-        name: "Ambulance",
-        phone: "65532165459",
+        name: "Rumah Sakit Umum Sidoarjo",
+        phone: "8113550333",
 
     },
     {
-        name: "Pemadam Kebakaran",
-        phone: "65532165459",
-
-    },
-    {
-        name: "Rumah Sakit",
-        phone: "65532165459",
-
-    },
-    {
-        name: "Puskesmas",
-        phone: "65532165459",
+        name: "Puskesmas Sedati",
+        phone: "82132674500",
 
     },
 ]

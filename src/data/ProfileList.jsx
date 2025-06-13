@@ -44,37 +44,37 @@ export const jabatanList=[
     {
         jabatan: "Ketua RT",
         nama: "Moh. Abidin",
-        tahun: "2023-2027",
+        tahun: "2024-2029",
         image: "/img/person/ketuart.jpg"
     },
     {
         jabatan: "Wakil Ketua RT",
         nama: "Muhammad Hudi",
-        tahun: "2023-2027",
+        tahun: "2024-2029",
         image: "/img/person/wakil.jpg"
     },
     {
         jabatan: "Sekretaris 1",
         nama: "Khoirul Anam, S.Pd.",
-        tahun: "2023-2027",
+        tahun: "2024-2029",
         image: "/img/person/pakrul.jpg"
     },
     {
         jabatan: "Sekretaris 2",
         nama: "Muizatil Karimah",
-        tahun: "2023-2027",
+        tahun: "2024-2029",
         image: "/img/person/sekre2.jpg"
     },
     {
         jabatan: "Bendahara 1",
         nama: "Rifki Suwaji",
-        tahun: "2023-2027",
+        tahun: "2024-2029",
         image: "/img/person/masrifki.jpg"
     },
     {
         jabatan: "Bendahara 2",
         nama: "Sri Haryanti",
-        tahun: "2023-2027",
+        tahun: "2024-2029",
         image: "/img/person/bendahara2.jpg"
     },
 ]
